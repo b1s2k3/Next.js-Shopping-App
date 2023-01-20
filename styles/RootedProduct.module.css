@@ -1,0 +1,83 @@
+.container {
+  border: 1px solid grey;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: auto;
+}
+.leftpart {
+  margin-right: 30px;
+  margin-top: 20px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-right: 1px solid rgb(192, 189, 189);
+  width: 50%;
+}
+
+.img {
+  max-height: 350px;
+}
+
+.rightpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.price {
+  font-size: 2rem;
+  text-decoration: underline;
+  background-color: rgb(60, 235, 60);
+  box-shadow: 3px 2px rgb(153, 224, 153);
+  line-height: 1.4em;
+}
+
+.discount {
+  margin-left: 15px;
+  background-color: rgb(229, 64, 64);
+  box-shadow: 4px 4px 8px red;
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 500px;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background-color: #d7621e;
+  height: 48px;
+  width: 15%;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.button:hover {
+  transform: scale(1.04);
+  background-color: #21e065;
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
