@@ -1,8 +1,6 @@
 import CategorizedProduct from "../../../components/CategorizedProduct";
 
 const category = ({ category }) => {
-  const a = category.products.map((item) => console.log(item.category));
-  console.log(a);
   return (
     <div>
       <CategorizedProduct category={category} />
