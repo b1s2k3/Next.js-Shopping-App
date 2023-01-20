@@ -44,7 +44,7 @@ const RootedProduct = ({ product }) => {
           onClick={() => addBasket(product, key)}
           className={rootedProductStyle.button}
         >
-          Buy
+          Add to Basket
         </button>
       </div>
     </>
