@@ -48,7 +48,7 @@
 }
 
 .discount {
-  margin-left: 15px;
+  margin: auto 15px;
   background-color: rgb(229, 64, 64);
   box-shadow: 4px 4px 8px red;
   border-radius: 5px;
